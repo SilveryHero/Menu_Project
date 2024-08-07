@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_inicio",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":136.87988,
+  "name":"snd_inicio",
+  "parent":{
+    "name":"_Sounds",
+    "path":"folders/_Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_inicio.wav",
+  "type":0,
+  "volume":1.0,
+}

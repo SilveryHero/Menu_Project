@@ -1,0 +1,22 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_button_creator","order":5,"path":"objects/obj_button_creator/obj_button_creator.yy",},
+    {"name":"obj_button_father","order":11,"path":"objects/obj_button_father/obj_button_father.yy",},
+    {"name":"obj_button_higher","order":12,"path":"objects/obj_button_higher/obj_button_higher.yy",},
+    {"name":"obj_button_lower","order":13,"path":"objects/obj_button_lower/obj_button_lower.yy",},
+    {"name":"obj_button_nao","order":10,"path":"objects/obj_button_nao/obj_button_nao.yy",},
+    {"name":"obj_button_sim","order":9,"path":"objects/obj_button_sim/obj_button_sim.yy",},
+    {"name":"obj_select","order":4,"path":"objects/obj_select/obj_select.yy",},
+    {"name":"obj_soundbox","order":2,"path":"objects/obj_soundbox/obj_soundbox.yy",},
+    {"name":"obj_text_box","order":8,"path":"objects/obj_text_box/obj_text_box.yy",},
+    {"name":"rm_menu2","order":1,"path":"rooms/rm_menu2/rm_menu2.yy",},
+    {"name":"snd_fase","order":1,"path":"sounds/snd_fase/snd_fase.yy",},
+    {"name":"spr_button_back","order":5,"path":"sprites/spr_button_back/spr_button_back.yy",},
+    {"name":"spr_button_exit","order":6,"path":"sprites/spr_button_exit/spr_button_exit.yy",},
+    {"name":"spr_button_higher","order":3,"path":"sprites/spr_button_higher/spr_button_higher.yy",},
+    {"name":"spr_button_lower","order":2,"path":"sprites/spr_button_lower/spr_button_lower.yy",},
+    {"name":"spr_button","order":1,"path":"sprites/spr_button/spr_button.yy",},
+    {"name":"spr_text_box","order":4,"path":"sprites/spr_text_box/spr_text_box.yy",},
+  ],
+}
