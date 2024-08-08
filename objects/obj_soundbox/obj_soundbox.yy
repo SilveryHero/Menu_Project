@@ -10,8 +10,8 @@
   "name":"obj_soundbox",
   "overriddenProperties":[],
   "parent":{
-    "name":"_Objects",
-    "path":"folders/_Objects.yy",
+    "name":"parents",
+    "path":"folders/_Objects/parents.yy",
   },
   "parentObjectId":null,
   "persistent":true,

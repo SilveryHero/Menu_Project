@@ -6,8 +6,8 @@
   "name":"obj_button_father",
   "overriddenProperties":[],
   "parent":{
-    "name":"_Objects",
-    "path":"folders/_Objects.yy",
+    "name":"parents",
+    "path":"folders/_Objects/parents.yy",
   },
   "parentObjectId":null,
   "persistent":false,

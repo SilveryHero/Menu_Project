@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_lower",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_button_confirm",
+  "eventList":[],
   "managed":true,
-  "name":"obj_button_lower",
+  "name":"obj_button_confirm",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/_Objects/buttons.yy",
+    "name":"parents",
+    "path":"folders/_Objects/parents.yy",
   },
   "parentObjectId":{
-    "name":"obj_button_sound",
-    "path":"objects/obj_button_sound/obj_button_sound.yy",
+    "name":"obj_button_father",
+    "path":"objects/obj_button_father/obj_button_father.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_button_lower",
-    "path":"sprites/spr_button_lower/spr_button_lower.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

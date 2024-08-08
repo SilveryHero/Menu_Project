@@ -8,12 +8,12 @@
   "name":"obj_button_higher",
   "overriddenProperties":[],
   "parent":{
-    "name":"_Objects",
-    "path":"folders/_Objects.yy",
+    "name":"buttons",
+    "path":"folders/_Objects/buttons.yy",
   },
   "parentObjectId":{
-    "name":"obj_button_father",
-    "path":"objects/obj_button_father/obj_button_father.yy",
+    "name":"obj_button_sound",
+    "path":"objects/obj_button_sound/obj_button_sound.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

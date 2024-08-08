@@ -11,6 +11,8 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"_Objects","folderPath":"folders/_Objects.yy","name":"_Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"buttons","folderPath":"folders/_Objects/buttons.yy","name":"buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"parents","folderPath":"folders/_Objects/parents.yy","name":"parents","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"_Rooms","folderPath":"folders/_Rooms.yy","name":"_Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"grupo1","folderPath":"folders/_Rooms/grupo1.yy","name":"grupo1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"_Sounds","folderPath":"folders/_Sounds.yy","name":"_Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,12 +37,14 @@
   },
   "name":"Menu_project",
   "resources":[
+    {"id":{"name":"obj_button_confirm","path":"objects/obj_button_confirm/obj_button_confirm.yy",},},
     {"id":{"name":"obj_button_creator","path":"objects/obj_button_creator/obj_button_creator.yy",},},
     {"id":{"name":"obj_button_father","path":"objects/obj_button_father/obj_button_father.yy",},},
     {"id":{"name":"obj_button_higher","path":"objects/obj_button_higher/obj_button_higher.yy",},},
     {"id":{"name":"obj_button_lower","path":"objects/obj_button_lower/obj_button_lower.yy",},},
     {"id":{"name":"obj_button_nao","path":"objects/obj_button_nao/obj_button_nao.yy",},},
     {"id":{"name":"obj_button_sim","path":"objects/obj_button_sim/obj_button_sim.yy",},},
+    {"id":{"name":"obj_button_sound","path":"objects/obj_button_sound/obj_button_sound.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_select","path":"objects/obj_select/obj_select.yy",},},
     {"id":{"name":"obj_soundbox","path":"objects/obj_soundbox/obj_soundbox.yy",},},

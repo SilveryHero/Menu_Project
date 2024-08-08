@@ -9,12 +9,12 @@
   "name":"obj_button_sim",
   "overriddenProperties":[],
   "parent":{
-    "name":"_Objects",
-    "path":"folders/_Objects.yy",
+    "name":"buttons",
+    "path":"folders/_Objects/buttons.yy",
   },
   "parentObjectId":{
-    "name":"obj_button_father",
-    "path":"objects/obj_button_father/obj_button_father.yy",
+    "name":"obj_button_confirm",
+    "path":"objects/obj_button_confirm/obj_button_confirm.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
