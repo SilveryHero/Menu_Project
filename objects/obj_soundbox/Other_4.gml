@@ -1,6 +1,6 @@
 var _music = -1;
 
-if (room == rm_menu2) {
+if (room == rm_menu) {
 	_music = snd_inicio;
 }
 
@@ -10,7 +10,7 @@ if (room ==  rm_gameplay) {
 
 if (_music != -1) {
 	if (global.musicplaying != _music) {
-		// new music is different then the current one
+		// checar se a nova musica é diferente da atual
 	}
 	if (!audio_is_playing(_music)) {
 		audio_stop_sound(global.musicplaying);

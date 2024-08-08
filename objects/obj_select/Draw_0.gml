@@ -1,8 +1,5 @@
-if (room == rm_gameplay) {
-	x = obj_button.x;
-	y = obj_button.y;
+// localização do botão na fase 2
 
-}
 
 selection = instance_position(mouse_x, mouse_y, obj_button);
 	if (selection != noone) {

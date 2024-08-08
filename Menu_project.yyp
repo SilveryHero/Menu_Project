@@ -12,7 +12,6 @@
   "Folders":[
     {"$GMFolder":"","%Name":"_Objects","folderPath":"folders/_Objects.yy","name":"_Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"_Rooms","folderPath":"folders/_Rooms.yy","name":"_Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"grupo1","folderPath":"folders/_Rooms/grupo1.yy","name":"grupo1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"_Sounds","folderPath":"folders/_Sounds.yy","name":"_Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"_Sprites","folderPath":"folders/_Sprites.yy","name":"_Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -42,7 +41,6 @@
     {"id":{"name":"obj_text_box","path":"objects/obj_text_box/obj_text_box.yy",},},
     {"id":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"id":{"name":"rm_menu2","path":"rooms/rm_menu2/rm_menu2.yy",},},
     {"id":{"name":"snd_fase","path":"sounds/snd_fase/snd_fase.yy",},},
     {"id":{"name":"snd_inicio","path":"sounds/snd_inicio/snd_inicio.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
@@ -52,7 +50,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_menu2","path":"rooms/rm_menu2/rm_menu2.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
   ],

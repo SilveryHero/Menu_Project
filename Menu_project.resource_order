@@ -5,7 +5,7 @@
     {"name":"obj_button","order":4,"path":"objects/obj_button/obj_button.yy",},
     {"name":"obj_soundbox","order":6,"path":"objects/obj_soundbox/obj_soundbox.yy",},
     {"name":"obj_text_box","order":1,"path":"objects/obj_text_box/obj_text_box.yy",},
-    {"name":"rm_menu2","order":1,"path":"rooms/rm_menu2/rm_menu2.yy",},
+    {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"snd_fase","order":1,"path":"sounds/snd_fase/snd_fase.yy",},
     {"name":"spr_button","order":1,"path":"sprites/spr_button/spr_button.yy",},
     {"name":"spr_text_box","order":4,"path":"sprites/spr_text_box/spr_text_box.yy",},
