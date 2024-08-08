@@ -10,13 +10,10 @@
   "name":"obj_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"buttons",
-    "path":"folders/_Objects/buttons.yy",
+    "name":"_Objects",
+    "path":"folders/_Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_button_father",
-    "path":"objects/obj_button_father/obj_button_father.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,8 +1,8 @@
 //Configuração do mouse
 main_array = menu_control[menu_index];
-
-if instance_exists(obj_button_father){
-	selected = instance_position(mouse_x, mouse_y, obj_button_father);
+show_debug_message(main_array);
+if instance_exists(obj_button){
+	selected = instance_position(mouse_x, mouse_y, obj_button);
 	if (selected!= noone) {
 		if (mouse_check_button_pressed(mb_left)){
 			if selected.name == "Jogar" {
@@ -13,22 +13,23 @@ if instance_exists(obj_button_father){
 			}
 			if selected.name == "Sair" {
 				quit = !quit
+				
 				if (quit){
+					menu_position = 0
+					menu_index = 3;
+					main_array = [quit_menu];
 					instance_create_depth(x,room_height/2, 0, obj_text_box);
-					instance_create_depth((room_width/2+200),room_height/2+100, 0, obj_button_nao);
-					instance_create_depth((room_width/2-200),room_height/2+100, 0, obj_button_sim);
-				} else {
-					instance_destroy(obj_button_confirm);
-				}		
+				} 
 			}
 			if selected.name == "Volume" {
-				volume = !volume
-				if (volume){
+				sound = !sound
+				if (sound){
+					menu_position = 0;
 					menu_index = 2;
-					instance_create_depth(x+250, y, 1, obj_button_higher);
-					instance_create_depth(x-250, y, 1, obj_button_lower);
 				} else {
-					instance_destroy(obj_button_sound)
+
+					menu_position = 0;
+					menu_index = 1
 				}
 			}
 			if selected.name == "Tela Cheia" {
@@ -52,7 +53,12 @@ if instance_exists(obj_button_father){
 				game_end();
 			}
 			if selected.name == "Não" {
-				room_restart();
+				{
+					menu_index = 0;
+					main_array = menu_control[menu_index];
+					instance_destroy(obj_text_box);
+					quit = !quit
+				}	
 			}
 
 		}
@@ -76,7 +82,7 @@ if (mouse  == false) {
 }
 
 // configuração do teclado
-if (volume) {
+if (sound || quit) {
 	if (keyboard_check_pressed(vk_left)){
 		menu_position  -= 1;
 		if (menu_position <0) {
@@ -108,7 +114,7 @@ if (volume) {
 
 
 if mouse == false{
-	selected = instance_place(x, y, obj_button_father);
+	selected = instance_place(x, y, obj_button);
 	if (selected!= noone) {
 		if (keyboard_check_pressed(vk_enter)){
 				if selected.name == "Jogar" {
@@ -120,22 +126,18 @@ if mouse == false{
 			if selected.name == "Sair" {
 				quit = !quit
 				if (quit){
+					menu_position = 0;
+					menu_index = 3;
+					main_array = [quit_menu];
 					instance_create_depth(x,room_height/2, 0, obj_text_box);
-					instance_create_depth((room_width/2+200),room_height/2+100, 0, obj_button_nao);
-					instance_create_depth((room_width/2-200),room_height/2+100, 0, obj_button_sim);
-				} else {
-					instance_destroy(obj_button_confirm);
-				}		
+				} 	
 			}
 			if selected.name == "Volume" {
-				volume = !volume
-				if (volume){
+				sound = !sound
+				if (sound){
 					menu_index = 2;
 					menu_position =0;
-					instance_create_depth(x+250, y, 1, obj_button_higher);
-					instance_create_depth(x-250, y, 1, obj_button_lower);
 				} else {
-					instance_destroy(obj_button_sound)
 					menu_index = 1;
 					menu_position =0;
 				}
@@ -161,7 +163,11 @@ if mouse == false{
 				game_end();
 			}
 			if selected.name == "Não" {
-				room_restart();
+				menu_index = 0;
+				main_array = menu_control[menu_index];
+				instance_destroy(obj_text_box);
+				quit = !quit
+				
 			}
 			
 		}

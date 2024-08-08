@@ -9,8 +9,8 @@
   "name":"obj_button_creator",
   "overriddenProperties":[],
   "parent":{
-    "name":"parents",
-    "path":"folders/_Objects/parents.yy",
+    "name":"_Objects",
+    "path":"folders/_Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

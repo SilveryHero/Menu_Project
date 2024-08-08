@@ -1,13 +1,12 @@
 if room == rm_menu2{
-	global.size = array_length(obj_select.main_array);
-}
+	size = array_length(obj_select.main_array);
 
-if room == rm_menu2 {
 	if (obj_select.menu_index == 0 ) {
 		if (main == false){
 			i = 0
-			y = room_height/ 2 - room_height/global.size;
-			instance_destroy(obj_button_father)
+			y = room_height/ 2 - room_height/size;
+			x = room_width/ 2
+			instance_destroy(obj_button)
 			main = true
 		}
 	}
@@ -15,18 +14,51 @@ if room == rm_menu2 {
 	if (obj_select.menu_index == 1) {
 		if (main == true){
 			i = 0
-			y = room_height/ 2 - room_height/global.size;
-			instance_destroy(obj_button_father)
+			y = room_height/ 2 - room_height/size;
+			x = room_width/ 2
+			instance_destroy(obj_button)
 			main = false
 		}
 	}
-	while (i < global.size) {
-		if (y < room_height/global.size) {
-			y = room_height/ 2 - room_height/global.size;
+	if (obj_select.menu_index == 2) {
+		
+			i = 0
+			y = room_height/ 2 - room_height/size;
+			x = room_width/ 2 - room_width/size;
+			main = true
+
+	}
+	if (obj_select.menu_index == 3) {
+
+			i = 0
+			y = room_height / 2
+			x = room_width / 2 - room_width/(size*2);
+			instance_destroy(obj_button)
+			main = false
+		
+	}
+	while (i < size && obj_select.menu_index <= 1 ) {
+		if (y < room_height/size) {
+			y = room_height/ 2 - room_height/size;
 		}
 		i += 1;
 		instance_create_depth(x, y, 1, obj_button);
-		y += room_height/global.size;
+		y += room_height/size;
+
+	}
+	
+	while (i < size && obj_select.menu_index >= 2) {
+		i += 1;
+		instance_create_depth(x, y, 1, obj_button);	
+		if (size >= 3){
+			if (x < room_width/size) {
+				x = room_width/ 2 - room_width/size;
+			}
+		x += room_width/size;
+		} else {
+			x += room_width/(size);
+		}
+		
 
 	}
 
